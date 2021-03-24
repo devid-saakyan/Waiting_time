@@ -5,6 +5,7 @@ root = Tk()
 c = Canvas(root, width = 600, height = 600, bg = '#27E6EC')
 c.pack()
 
+# Код для ввода даты
 entry1 = Entry(root)
 c.create_window(200, 140, window=entry1, height = 20, width = 30)
 
